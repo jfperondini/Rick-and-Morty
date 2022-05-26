@@ -1,0 +1,102 @@
+
+.logo{
+  max-width: 350px;
+  padding: 20px;;
+}
+.card {
+  max-width: 350px;
+  padding: 20px;;
+}
+
+.fundo{
+  padding-top: 10px;
+}
+
+nav {
+  
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+.container {
+  height: 590px;   
+   overflow-y : scroll;
+}
+
+
+/* Barra de navegação */
+header {
+  background-color: #fff;
+}
+
+
+/* Botão de Paginas */
+.pg button{
+  border: none;
+  background-color: #0000;
+  
+;
+}
+
+.pg button:hover{
+  background-color: rgb(177, 177, 177);
+}
+
+
+/* footer */
+#contact-form .main-btn:hover {
+  color: #3EC1D5;
+}
+
+#copy-area {
+  background-color: #f1f1f1;
+}
+
+#copy-area .container-footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container-footer  p {
+margin-bottom: 0;
+}
+
+
+#copy-area .container-footer a {
+font-weight: bold;
+color: #444;
+}
+
+#copy-area .container-footer a:hover {
+text-decoration: nome;
+color: #3ec1d5;
+
+}
+
+
+
+/* se for a largura menor que 768*/
+@media (min-width: 768px){
+  .container{
+      width: 750px;
+  }
+}
+
+/* se for a largura for menor que 992*/
+@media (min-width: 992px){
+  .container{
+      width: 970px;
+  }
+}
+
+/* se for a larhura menor que 922*/
+@media (min-width: 1200px){
+  .container{
+      width: 1170px;
+  }
+}
+
+
